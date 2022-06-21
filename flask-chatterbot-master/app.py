@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request
-from chatterbot import ChatBot
+from flask import Flask, render_template, request   # render_template is a Flask function from the flask. templating package. render_template is used to generate output from a template file based on the Jinja2 engine that is found in the application's templates folder.
+from chatterbot import ChatBot                      # A chatbot is a computer program that simulates human conversation through voice commands or text chats or both. Chatbot, short for chatterbot, is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application       
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 app = Flask(__name__)
