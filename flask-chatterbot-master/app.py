@@ -2,7 +2,7 @@ from flask import Flask, render_template, request   # render_template is a Flask
 from chatterbot import ChatBot                      # A chatbot is a computer program that simulates human conversation through voice commands or text chats or both. Chatbot, short for chatterbot, is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application       
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-app = Flask(__name__)
+app = Flask(__name__)                               # Flask constructor takes the name of current module (__name__) as argument. The route() function of the Flask class is a decorator, which tells the application which URL should call the associated function.
 
 english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 trainer = ChatterBotCorpusTrainer(english_bot)
