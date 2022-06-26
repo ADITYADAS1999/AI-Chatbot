@@ -5,4 +5,4 @@
 # 3. Paremiter that use in the code
 # 4. Function that use in our code / Explain each function works?
 # 5. Reselt section:
-  ## . Output
+  ## -Output
