@@ -4,8 +4,8 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 app = Flask(__name__)                               # Flask constructor takes the name of current module (__name__) as argument. The route() function of the Flask class is a decorator, which tells the application which URL should call the associated function.
 
-english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
-trainer = ChatterBotCorpusTrainer(english_bot)
+english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")  # The SQLStorageAdapter allows ChatterBot to store conversation data in any database supported by the SQL Alchemy ORM. 
+trainer = ChatterBotCorpusTrainer(english_bot)  # This is a corpus of dialog data that is included in the chatterbot module. Additional information about the chatterbot-corpus module can be found in the ChatterBot Corpus Documentation.
 trainer.train("chatterbot.corpus.english")
 
 @app.route("/")
