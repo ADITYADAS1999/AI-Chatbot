@@ -18,5 +18,5 @@ def get_bot_response():
     return str(english_bot.get_response(userText))
 
 
-if __name__ == "__main__":
-    app.run()
+if __name__ == "__main__":                     # This application run by the python interpreter gives a name variable that set the actual name of the program file.
+    app.run()                           #Run my application in local machine.
