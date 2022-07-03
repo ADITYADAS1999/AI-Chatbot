@@ -8,7 +8,7 @@ english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStora
 trainer = ChatterBotCorpusTrainer(english_bot)  # This is a corpus of dialog data that is included in the chatterbot module. Additional information about the chatterbot-corpus module can be found in the ChatterBot Corpus Documentation.
 trainer.train("chatterbot.corpus.english")
 
-@app.route("/")
+@app.route("/")                             # This is called the decorator fucntion in python. This essentially wrap our functions inside the app.route fuction.
 def home():
     return render_template("index.html")
 
