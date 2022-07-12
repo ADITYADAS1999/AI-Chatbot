@@ -2,6 +2,17 @@
 
 # 1. How the project works ?
 # 2. Tools & Requirements of the project ?
+
+# flask-chatterbot
+
+#### A web implementation of ChatterBot using Flask.
+
+## Local Setup:
+ 1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
+ 2. Run *app.py* with `python app.py`.
+ 3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
+
+
 # 3. Paremiter that use in the code
 # 4. Function that use in our code / Explain each function works?
 # 5. What is Flax! & how it will works!
