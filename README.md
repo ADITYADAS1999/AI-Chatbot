@@ -34,5 +34,36 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 
 
 # 6. How To Install ChatterBot In Python?
+
+- To install ChatterBot from PyPi (Python Package Index) using pip run the following command in your terminal.
+
+```
+pip install chatterbot
+```
+
+- You can install the latest development version of ChatterBot directly from GitHub using pip.
+```
+pip install git+git://github.com/gunthercox/ChatterBot.git@master
+```
+
+
+- Download a copy of the code from GitHub. You may need to install git.
+
+```
+git clone https://github.com/gunthercox/ChatterBot.git
+```
+
+- If you already have ChatterBot installed and you want to check what version you have installed you can run the following command.
+
+```
+python -m chatterbot --version
+```
+
+
+
+
+
+
+
 # 7. Reselt section:
   ## -Output
