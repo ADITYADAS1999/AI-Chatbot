@@ -13,9 +13,9 @@
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
 
 
-# 3. Paremiter that use in the code
-# 4. Function that use in our code / Explain each function works?
-# 5. What is Flax! & how it will works!
+
+# 3. Function & Paremiter that use in our code / Explain each function works?
+# 4. What is Flax! & how it will works!
 
 A framework is a collection of modules or packages which helps in writing web applications. While working on frameworks in python we don’t have to worry about the low level details such as protocols, sockets or thread management.
 A Flask is a micro-framework. It is lightweight and its modular design makes it easily adaptable to developer’s needs. It has a number of out of the box features listed below:
@@ -33,7 +33,7 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 
 
 
-# 6. How To Install ChatterBot In Python?
+# 5. How To Install ChatterBot In Python?
 
 - To install ChatterBot from PyPi (Python Package Index) using pip run the following command in your terminal.
 
@@ -65,5 +65,5 @@ python -m chatterbot --version
 
 
 
-# 7. Reselt section:
+# 6. Reselt section:
   ## -Output
