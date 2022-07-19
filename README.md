@@ -31,6 +31,54 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 - HTTP request handling  
 
 
+### How to actually install flask
+
+- Step-1: 
+
+Download python > 2.7.0
+ ```
+ https://www.python.org/  
+ ```
+
+- Step-2: 
+
+virtual env -> Virtual python environment builder
+
+- For windows
+ ```
+ pip install  virtualenv
+ ```
+ 
+- For Linux
+ ```
+ sudo apt-get install virtualenv
+ ```
+
+- Step-3: 
+
+Once install new virtual environment is created in a folder.
+```
+mldir newproj
+cd newproj
+virtualenv venv
+```
+
+- Step-4: 
+
+To activate corresponding environment use the following command.
+
+```
+venv\script\active
+```
+
+- Step-5: 
+
+Finally install flask
+
+```
+!pip install flask
+```
+
 
 
 # 5. How To Install ChatterBot In Python?
