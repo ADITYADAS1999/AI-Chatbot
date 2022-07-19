@@ -5,8 +5,8 @@
 
 # 2. Tools & Requirements of the project ?
 
-# Used by pip to install required python packages
-# Usage: pip install -r requirements.txt
+ Used by pip to install required python packages
+ Usage: pip install -r requirements.txt
 
 Flask>=1.0.0
 chatterbot>=1.0.0
@@ -25,6 +25,20 @@ SQLAlchemy>=1.2
 
 
 # 3. Function & Paremiter that use in our code / Explain each function works?
+
+![00000005](https://user-images.githubusercontent.com/58718316/179664616-63f715a3-fa43-44c9-9891-2ee4ee42c6af.PNG)
+
+
+![00001](https://user-images.githubusercontent.com/58718316/179664638-4637d70a-5423-4743-8907-9a63919d1401.PNG)
+
+
+![00002](https://user-images.githubusercontent.com/58718316/179664642-90c0d673-9f28-43ce-9af9-f7cb0bf90da9.PNG)
+
+
+
+
+
+
 # 4. What is Flax! & how it will works!
 
 A framework is a collection of modules or packages which helps in writing web applications. While working on frameworks in python we don’t have to worry about the low level details such as protocols, sockets or thread management.
