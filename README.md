@@ -1,7 +1,17 @@
 # MLH(Major League Hacking)-Project_Repo
 
 # 1. How the project works ?
+
+
 # 2. Tools & Requirements of the project ?
+
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+Flask>=1.0.0
+chatterbot>=1.0.0
+chatterbot-corpus>=1.2.0
+SQLAlchemy>=1.2
 
 # flask-chatterbot
 
