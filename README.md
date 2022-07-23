@@ -1,5 +1,8 @@
 # MLH(Major League Hacking)-Project_Repo
 
+<img src="https://user-images.githubusercontent.com/58718316/180588275-536368fc-52a0-46ba-9ae5-3b99bbaebefd.PNG" height=400, width=700>
+
+
 # 1. How the project works ?
 
 
@@ -13,11 +16,14 @@ chatterbot>=1.0.0
 chatterbot-corpus>=1.2.0
 SQLAlchemy>=1.2
 
-# flask-chatterbot
+- # flask-chatterbot
+
+![robo_small](https://user-images.githubusercontent.com/58718316/180588383-1ed169d5-2d9d-4683-9808-7ce92e45dc55.gif)
+
 
 #### A web implementation of ChatterBot using Flask.
 
-## Local Setup:
+- ## Local Setup:
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
  2. Run *app.py* with `python app.py`.
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
