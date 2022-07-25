@@ -52,7 +52,7 @@ The default post is 5000 but we can change it based on requiement.
 
 To be forwarded to underlaying werkzerg server.
 
-# 4. What is Flax! & how it will works!
+# 4. What is Flask! & how it will works!
 
 
 Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004. According to Ronacher, the idea was originally an April Fool's joke that was popular enough to make into a serious application. The name is a play on the earlier Bottle framework.
