@@ -120,6 +120,10 @@ Finally install flask
 ```
 
 
+- ### 4.1. WSGI
+
+
+- ### 4.2. Jinja2
 
 # 5. How To Install ChatterBot In Python?
 
