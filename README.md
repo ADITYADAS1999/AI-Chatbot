@@ -71,6 +71,11 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 - HTTP request handling  
 
 
+## WSGI
+
+## JINJA2 Template
+
+
 ### How to actually install flask
 
 - Step-1: 
