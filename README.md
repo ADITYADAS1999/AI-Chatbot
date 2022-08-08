@@ -6,6 +6,55 @@
 # 1. How the project works ?
 
 
+```
+from flask import Flask, render_template, request
+```
+
+```
+from chatterbot import ChatBot 
+```
+
+```
+from chatterbot.trainers import ChatterBotCorpusTrainer
+```
+
+```
+app = Flask(__name__)             
+```
+
+```
+my_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter") 
+```
+
+```
+trainer = ChatterBotCorpusTrainer(my_bot)
+```
+
+```
+trainer.train("chatterbot.corpus.english")
+```
+
+```
+@app.route("/")  
+```
+
+```
+def my_home():
+ return render_template("index.html")
+ @app.route("/get")
+```
+
+```
+def get_chat_bot_response():
+ userText = request.args.get('msg')
+ return str(my_bot.get_response(userText))
+```
+
+```
+if __name__ == "__main__":
+ app.run()  
+```    
+    
 # 2. Tools & Requirements of the project ?
 
  Used by pip to install required python packages
