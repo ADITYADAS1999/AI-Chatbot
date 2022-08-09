@@ -40,9 +40,10 @@ trainer.train("chatterbot.corpus.english")
 
 ```
 def my_home():
- return render_template("index.html")
+ return render_template("index.html")  
  @app.route("/get")
 ```
+# send the context to html file
 
 ```
 def get_chat_bot_response():
