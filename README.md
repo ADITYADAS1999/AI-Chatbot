@@ -43,13 +43,14 @@ def my_home():
  return render_template("index.html")  
  @app.route("/get")
 ```
-# send the context to html file
+ #send the context to html file
 
 ```
 def get_chat_bot_response():
  userText = request.args.get('msg')
  return str(my_bot.get_response(userText))
 ```
+#This thing get data from input as we write our script to html file.
 
 ```
 if __name__ == "__main__":
