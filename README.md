@@ -33,6 +33,7 @@ trainer = ChatterBotCorpusTrainer(my_bot)
 ```
 trainer.train("chatterbot.corpus.english")
 ```
+#take the corpus as english corpus
 
 ```
 @app.route("/")  
