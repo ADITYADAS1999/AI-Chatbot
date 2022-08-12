@@ -13,6 +13,7 @@ from flask import Flask, render_template, request
 ```
 from chatterbot import ChatBot 
 ```
+#importing the chatbot package
 
 ```
 from chatterbot.trainers import ChatterBotCorpusTrainer
