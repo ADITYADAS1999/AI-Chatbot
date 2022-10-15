@@ -229,6 +229,7 @@ python -m chatterbot --version
   
   Congratulations
   
-  ![0finally_we_are_done](https://user-images.githubusercontent.com/58718316/195966699-129b0e3f-d5e7-4b79-9a2a-9d1e01479fed.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/58718316/195966856-71b1533e-3eff-4d66-b117-d2c618274d22.gif)
+
 
   
