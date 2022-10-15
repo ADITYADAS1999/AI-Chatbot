@@ -217,3 +217,18 @@ python -m chatterbot --version
 
 # 6. Reselt section:
   - ## Output
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Congratulations
+  
+  ![0finally_we_are_done](https://user-images.githubusercontent.com/58718316/195966699-129b0e3f-d5e7-4b79-9a2a-9d1e01479fed.gif)
+
+  
