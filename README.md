@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/58718316/180588275-536368fc-52a0-46ba-9ae5-3b99bbaebefd.PNG" height=400, width=700>
 
 
-# 1.1 How the project works ?
+# 1.1 Project details code ?
 
 
 ```
