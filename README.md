@@ -1,6 +1,6 @@
 # MLH(Major League Hacking)-Project_Repo
 
-<img src="https://user-images.githubusercontent.com/58718316/180588275-536368fc-52a0-46ba-9ae5-3b99bbaebefd.PNG" height=400, width=700>
+![picd](https://user-images.githubusercontent.com/58718316/199229225-778637f1-a71f-49d2-97ae-c366e7d7c04d.PNG)
 
 
 # 1 Introduction about the project 📯
