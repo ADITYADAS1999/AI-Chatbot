@@ -5,6 +5,9 @@
 
 # 1 Introduction about the project 📯
 
+There are millions and millions of projects are evaluate and born each day. The technology, maintainers & contributors both are involve in different field of technology. Not only that emergency services are also depends on this technology like hospitality, management and reservation services. One minute of delay can generate huge impact on a specific service. Hence chatbot concept are really amazing and reliable concept to our daily life challenges. Also this concept use for many services and emergency usecases.
+
+
 # 2. How this project works ⚙
 
 # 3. How to install the project in your local system 🖥🖱
