@@ -3,63 +3,19 @@
 <img src="https://user-images.githubusercontent.com/58718316/180588275-536368fc-52a0-46ba-9ae5-3b99bbaebefd.PNG" height=400, width=700>
 
 
-# 1.1 Project details code ?
+# 1 Introduction about the project 📯
 
+# 2. How this project works ⚙
 
-```
-from flask import Flask, render_template, request
-```
+# 3. How to install the project in your local system 🖥🖱
 
-```
-from chatterbot import ChatBot 
-```
-#importing the chatbot package
+# 4. Where this technology basically uses ? 💁🏻‍♀️💁🏻‍♂️
 
-```
-from chatterbot.trainers import ChatterBotCorpusTrainer
-```
+# 5. Why this project ? 👨‍🏫
 
-```
-app = Flask(__name__)             
-```
-
-```
-my_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter") 
-```
-
-```
-trainer = ChatterBotCorpusTrainer(my_bot)
-```
-
-```
-trainer.train("chatterbot.corpus.english")
-```
-#take the corpus as english corpus
-
-```
-@app.route("/")  
-```
-
-```
-def my_home():
- return render_template("index.html")  
- @app.route("/get")
-```
- #send the context to html file
-
-```
-def get_chat_bot_response():
- userText = request.args.get('msg')
- return str(my_bot.get_response(userText))
-```
-#This thing get data from input as we write our script to html file.
-
-```
-if __name__ == "__main__":
- app.run()  
-```    
+# 6. Project code details ❗🔭📑📚
     
-# 2. Tools & Requirements of the project ?
+# 7. Tools & Requirements of the project ? 🗝🛠🔩
 
  Used by pip to install required python packages
  Usage: pip install -r requirements.txt
@@ -83,7 +39,7 @@ SQLAlchemy>=1.2
 
 
 
-# 3. Function & Paremiter that use in our code / Explain each function works?
+# 8. Function & Paremiter that use in our code / Explain each function works? ⚙💽💾
 
 ![00000005](https://user-images.githubusercontent.com/58718316/179664616-63f715a3-fa43-44c9-9891-2ee4ee42c6af.PNG)
 
@@ -105,7 +61,7 @@ The default post is 5000 but we can change it based on requiement.
 
 To be forwarded to underlaying werkzerg server.
 
-# 4. What is Flask! & how it will works!
+# 9. What is Flask! & how it will works! 🎯🎮👨‍💻
 
 
 Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004. According to Ronacher, the idea was originally an April Fool's joke that was popular enough to make into a serious application. The name is a play on the earlier Bottle framework.
@@ -182,8 +138,8 @@ Finally install flask
 
 
 - ### 4.2. Jinja2
-
-# 5. How To Install ChatterBot In Python?
+ 
+# 10. How To Install ChatterBot In Python? 🤖🐍
 
 - To install ChatterBot from PyPi (Python Package Index) using pip run the following command in your terminal.
 
@@ -211,13 +167,12 @@ python -m chatterbot --version
 
 
 
+## 11. Result section ⚗🧪🔬
 
-
-
-
-# 6. Reselt section:
   - ## Output
   
+ 
+## 12. Future scope 🚩
   
   
   
@@ -225,9 +180,7 @@ python -m chatterbot --version
   
   
   
-  
-  
-  Congratulations
+  Congratulations 🎉🎊
   
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/58718316/195966856-71b1533e-3eff-4d66-b117-d2c618274d22.gif)
 
