@@ -10,6 +10,19 @@ There are millions and millions of projects are evaluate and born each day. The 
 
 # 2. How this project works ⚙
 
+ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users. The language independent design of ChatterBot allows it to be trained to speak any language. Additionally, the machine-learning nature of ChatterBot allows an agent instance to improve it’s own knowledge of possible responses as it interacts with humans and other sources of informative data.
+
+Our project basically works in the following manner:
+
+- Get the input from the user.
+- Process the input.
+- Returns the value that is generated with the highest confidence value.
+- Return the response to the user.
+- Working of the Project
+- First, the chatbot is trained with a set of training data present in /data directory and creates a sqlite3 database. When the users inputs a query the bot searches for a response from the database if it finds an answer then it prints the response or else it will search for an answer from Wikipedia using web scraping and provide an appropriate response.
+
+
+
 # 3. How to install the project in your local system 🖥🖱
 
 # 4. Where this technology basically uses ? 💁🏻‍♀️💁🏻‍♂️
