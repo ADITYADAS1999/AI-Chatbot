@@ -62,6 +62,9 @@ There are different type of chatbot are use in different field, like simple chat
 
 # 5. Why this project ? 👨‍🏫
 
+I build this project because first of all I have some interest in this technology and also good knowledge in python programming. My main goal is that make this project cost optimestic and less complexcity. By optimizing the cost many organisation and user try to use this technology. And any contributors and maintainer can involve and contribute in less complex projects so it is easy the maintain and modify anytime infuture. 
+
+
 # 6. Project code details ❗🔭📑📚
     
 # 7. Tools & Requirements of the project ? 🗝🛠🔩
