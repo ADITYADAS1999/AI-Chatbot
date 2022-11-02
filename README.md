@@ -57,6 +57,9 @@ Open <mark> http://localhost:5000 </mark> in your browser to interact with the c
 
 # 4. Where this technology basically uses ? 💁🏻‍♀️💁🏻‍♂️
 
+There are different type of chatbot are use in different field, like simple chatbot(a user interacts with a chatbot to certain time of work, the flow of the conversation is set), smart chatbot(AI-enabled smart chatbots are designed to simulate near-human interactions with user. for eample virtual assistent like Apple siri, Amazon alexa), Hybrid chatbots(Chatbots that help with a medical diagnosis combine the capabilities of both simple and smart chatbots.) In this project we basically use simple chatbot technique. This bot basically trained by custom yaml files and according to the flow bot interact with user, also with a voice feature. This bot better to use in emergency services in different field like hospitality, management services, reservation services etc. For example a user have some problem regarding flight reservation and can't find a particular sloution, in this condition bot services are the life line, It does't need a human sit ohersite and response, the bot service automatocally done all the things. 
+
+
 # 5. Why this project ? 👨‍🏫
 
 # 6. Project code details ❗🔭📑📚
