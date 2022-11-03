@@ -28,7 +28,7 @@ Our project basically works in the following manner:
 - Clone the repository using
 
 ```
-git https://github.com/ADITYADAS1999/MLH-Project_Repo-Major-League-Hacking
+git https://github.com/ADITYADAS1999/MLH-Project_Repo-Major-League-Hacking-
 ```
 - Open the terminal/cmd and navigate to the project folder.
 
