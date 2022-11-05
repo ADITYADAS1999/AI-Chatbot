@@ -294,15 +294,15 @@ python -m chatterbot --version
 
   - ## Output
   
+  
  
 ## 12. Future scope 🚩
+
+  
+So in this project, this is only a part or called it as version 0.1. According to our project our ultimate goal is to productivity high and cost low that is we add more feature, functionality. In future we involve more contributors, maintainers to make this project beneficial and useful, and user friendly for every user in any other platform.
   
   
-  
-  
-  
-  
-  
+   
   Congratulations 🎉🎊
   
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/58718316/195966856-71b1533e-3eff-4d66-b117-d2c618274d22.gif)
