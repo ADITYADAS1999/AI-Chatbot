@@ -164,7 +164,7 @@ SQLAlchemy>=1.2
 
 # 8. Function & Paremiter that use in our code / Explain each function works? ⚙💽💾
 
-![00000005](https://user-images.githubusercontent.com/58718316/179664616-63f715a3-fa43-44c9-9891-2ee4ee42c6af.PNG)
+
 
 
 In our case object of flask class are WSGI application. However flask constructor takes the name of the current module as a argument.
