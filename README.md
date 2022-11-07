@@ -68,7 +68,7 @@ I build this project because first of all I have some interest in this technolog
 # 6. Project code details ❗🔭📑📚
 
 ```
-
+# import python libraries 
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from requests import get
