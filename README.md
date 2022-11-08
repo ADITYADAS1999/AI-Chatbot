@@ -76,6 +76,8 @@ from bs4 import BeautifulSoup
 import os
 from flask import Flask, render_template, request, jsonify
 
+# Flask constructor takes the name of current module (__name__) as argument.
+
 app = Flask(__name__)
 
 bot= ChatBot('ChatBot')
@@ -136,6 +138,130 @@ if __name__ == "__main__":
     app.run()
   
   
+```
+
+## Training
+
+ChatterBot includes tools that help simplify the process of training a chat bot instance. ChatterBot’s training process involves loading example dialog into the chat bot’s database. This either creates or builds upon the graph data structure that represents the sets of known statements and responses. When a chat bot trainer is provided with a data set, it creates the necessary entries in the chat bot’s knowledge graph so that the statement inputs and responses are correctly represented.
+
+![000002](https://user-images.githubusercontent.com/58718316/200607465-3f9a2bf3-b632-493a-b65e-b06e7e64d3c3.PNG)
+
+Several training classes come built-in with ChatterBot. These utilities range from allowing you to update the chat bot’s database knowledge graph based on a list of statements representing a conversation, to tools that allow you to train your bot based on a corpus of pre-loaded training data.
+
+You can also create your own training class. This is recommended if you wish to train your bot with data you have stored in a format that is not already supported by one of the pre-built classes listed below.
+
+## Setting the training class 
+
+ChatterBot comes with training classes built in, or you can create your own if needed. To use a training class you call train() on an instance that has been initialized with your chat bot.
+
+
+### Training classes
+
+### Training via list data :
+For the training process, you will need to pass in a list of statements where the order of each statement is based on its placement in a given conversation.
+
+For example, if you were to run bot of the following training calls, then the resulting chatterbot would respond to both statements of “Hi there!” and “Greetings!” by saying “Hello”.
+
+chatbot.py
+```
+ chatbot = ChatBot('Training Example')
+ 
+```
+train.py
+```
+from chatbot import chatbot
+from chatterbot.trainers import ListTrainer
+
+trainer = ListTrainer(chatbot)
+
+trainer.train([
+    "Hi there!",
+    "Hello",
+])
+
+trainer.train([
+    "Greetings!",
+    "Hello",
+])
+
+```
+
+You can also provide longer lists of training conversations. This will establish each item in the list as a possible response to it’s predecessor in the list.
+
+train.py
+
+```
+trainer.train([
+    "How are you?",
+    "I am good.",
+    "That is good to hear.",
+    "Thank you",
+    "You are welcome.",
+])
+
+```
+
+
+### Training with corpus data :
+
+ChatterBot comes with a corpus data and utility module that makes it easy to quickly train your bot to communicate. To do so, simply specify the corpus data modules you want to use.
+
+chatbot.py
+```
+ chatbot = ChatBot('Training Example')
+ 
+ ```
+ 
+ 
+ train.py
+ 
+ ```
+ 
+ from chatbot import chatbot
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
+trainer = ChatterBotCorpusTrainer(chatbot)
+
+trainer.train(
+    "chatterbot.corpus.english"
+)
+
+```
+### Specifying corpus scope :
+
+It is also possible to import individual subsets of ChatterBot’s corpus at once. For example, if you only wish to train based on the english greetings and conversations corpora then you would simply specify them.
+ 
+train.py
+
+```
+
+trainer.train(
+    "chatterbot.corpus.english.greetings",
+    "chatterbot.corpus.english.conversations"
+)
+
+```
+You can also specify file paths to corpus files or directories of corpus files when calling the train method.
+
+train.py
+
+```
+
+trainer.train(
+    "./data/greetings_corpus/custom.corpus.json",
+    "./data/my_corpus/"
+)
+
+```
+
+### Training with the Ubuntu dialog corpus
+
+```
+
+Warning
+
+The Ubuntu dialog corpus is a massive data set. Developers will currently experience significantly decreased performance in the form of delayed training and response times from the chat bot when using this corpus.
+
 ```
     
 # 7. Tools & Requirements of the project ? 🗝🛠🔩
