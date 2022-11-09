@@ -348,6 +348,14 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 
 ## WSGI
 
+Flask is a WSGI application. A WSGI server is used to run the application, converting incoming HTTP requests to the standard WSGI environ, and converting outgoing WSGI responses to HTTP responses. WSGI stands for "Web Server Gateway Interface". It is used to forward requests from a web server (such as Apache or NGINX) to a backend Python web application or framework. From there, responses are then passed back to the webserver to reply to the requestor.
+
+![wsgi-interface](https://user-images.githubusercontent.com/58718316/200732153-45e37f44-9433-406a-a87e-45380a2e9ee4.png)
+
+To serving thousands of requests for dynamic content at once is the domain of WSGI servers, not frameworks. WSGI servers handle processing requests from the web server and deciding how to communicate those requests to an application framework's process. The segregation of responsibilities is important for efficiently scaling web traffic.
+
+![web-browser-server-wsgi](https://user-images.githubusercontent.com/58718316/200732626-3fc2efd1-b9f0-498e-97bf-2e2c1c88c928.png)
+
 ## JINJA2 Template
 
 
