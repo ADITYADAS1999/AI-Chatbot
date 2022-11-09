@@ -455,7 +455,8 @@ python -m chatterbot --version
 
   - ## Output
   
-  
+ ![8585](https://user-images.githubusercontent.com/58718316/200826761-083b0a00-00f3-4d85-9fba-61dc336dbb64.PNG)
+
  
 ## 12. Future scope 🚩
 
