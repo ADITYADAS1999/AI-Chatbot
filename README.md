@@ -189,6 +189,7 @@ trainer.train(
 )
 
 ```
+
 You can also specify file paths to corpus files or directories of corpus files when calling the train method.
 
 train.py
@@ -202,9 +203,6 @@ trainer.train(
 
 ```
 
-### Training with the Ubuntu dialog corpus
-
-```
 
 
 ```
@@ -271,6 +269,10 @@ if __name__ == "__main__":
     app.run()
   
   
+```
+
+### Training with the Ubuntu dialog corpus
+
 ```
 
 Warning
