@@ -211,7 +211,11 @@ trainer.train(
 
 app = Flask(__name__)
 
+# ChatterBot comes with a corpus data and utility module that makes it easy to quickly train your bot to communicate. To do so, simply specify the corpus data modules you want to use.
+
 bot= ChatBot('ChatBot')
+
+# if you were to run bot of the following training calls, then the resulting chatterbot would respond to both statements that present in the data.
 
 trainer = ListTrainer(bot)
 
@@ -220,6 +224,8 @@ for file in os.listdir('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/'):
     chats = open('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/' + file, 'r').readlines()
 
     trainer.train(chats)
+    
+# the URL ('/') is associated with the home function that returns a particular string displayed on the web page.
 
 @app.route("/")
 def hello():
