@@ -346,7 +346,7 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 - HTTP request handling  
 
 
-## WSGI
+- ## WSGI
 
 ![download](https://user-images.githubusercontent.com/58718316/200734336-48538613-7082-4dba-9afb-60b2a64b8b2b.jpg)
 
@@ -358,7 +358,7 @@ To serving thousands of requests for dynamic content at once is the domain of WS
 
 ![web-browser-server-wsgi](https://user-images.githubusercontent.com/58718316/200732626-3fc2efd1-b9f0-498e-97bf-2e2c1c88c928.png)
 
-## JINJA2 Template
+- ## JINJA2 Template
 
 ![1200px-Jinja_software_logo svg (1)](https://user-images.githubusercontent.com/58718316/200734875-5e08e138-86f2-4968-ac30-5f07ed8edd9a.png)
 
