@@ -348,6 +348,8 @@ A Flask is a micro-framework. It is lightweight and its modular design makes it 
 
 ## WSGI
 
+![download](https://user-images.githubusercontent.com/58718316/200734336-48538613-7082-4dba-9afb-60b2a64b8b2b.jpg)
+
 Flask is a WSGI application. A WSGI server is used to run the application, converting incoming HTTP requests to the standard WSGI environ, and converting outgoing WSGI responses to HTTP responses. WSGI stands for "Web Server Gateway Interface". It is used to forward requests from a web server (such as Apache or NGINX) to a backend Python web application or framework. From there, responses are then passed back to the webserver to reply to the requestor.
 
 ![wsgi-interface](https://user-images.githubusercontent.com/58718316/200732153-45e37f44-9433-406a-a87e-45380a2e9ee4.png)
@@ -357,6 +359,10 @@ To serving thousands of requests for dynamic content at once is the domain of WS
 ![web-browser-server-wsgi](https://user-images.githubusercontent.com/58718316/200732626-3fc2efd1-b9f0-498e-97bf-2e2c1c88c928.png)
 
 ## JINJA2 Template
+
+![1200px-Jinja_software_logo svg](https://user-images.githubusercontent.com/58718316/200733713-c2b3d900-b270-47d4-ab74-6ed2c8a9e924.png)
+
+The name Jinja was chosen because it's the name of a Japanese temple and template share a similar pronunciation. Jinja2 is a commonly-used templating engine for web frameworks such as Flask, Bottle, Morepath and, as of its 1.8 update, optionally Django as well. Jinja2 is also used as a template language by configuration management tool Ansible and the static site generator Pelican, among many other similar tools.
 
 
 ### How to actually install flask
