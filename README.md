@@ -225,11 +225,14 @@ for file in os.listdir('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/'):
 
     trainer.train(chats)
     
-# the URL ('/') is associated with the home function that returns a particular string displayed on the web page.
+# the URL ('/') is associated with the home function that returns a particular string displayed on the web page. Here hello fouction basically provide the render tempalte of the html page that should written in the chat.html file. 
 
 @app.route("/")
 def hello():
     return render_template('chat.html')
+    
+    
+# If you don't specify a methods argument to app.route(), then the default is to only accept GET and HEAD requests. POST is used to send data to a server to create/update a resource. The data sent to the server with POST is basically stored in the request body of the HTTP request.
 
 @app.route("/ask", methods=['POST'])
 def ask():
