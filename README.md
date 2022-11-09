@@ -67,6 +67,16 @@ I build this project because first of all I have some interest in this technolog
 
 # 6. Project code details ❗🔭📑📚
 
+
+### About ChatterBot
+
+![banner](https://user-images.githubusercontent.com/58718316/200725793-a73040ca-ec81-48b3-b082-4ebd4c60a51f.png)
+
+ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users. For more details about the ideas and concepts behind ChatterBot see the process flow diagram.
+
+![yu](https://user-images.githubusercontent.com/58718316/200725855-71d8583b-445e-41f8-ae02-abca31e7110a.PNG)
+
+
 ```
 # import python libraries 
 from chatterbot import ChatBot
@@ -76,68 +86,6 @@ from bs4 import BeautifulSoup
 import os
 from flask import Flask, render_template, request, jsonify
 
-# Flask constructor takes the name of current module (__name__) as argument.
-
-app = Flask(__name__)
-
-bot= ChatBot('ChatBot')
-
-trainer = ListTrainer(bot)
-
-for file in os.listdir('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/'):
-
-    chats = open('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/' + file, 'r').readlines()
-
-    trainer.train(chats)
-
-@app.route("/")
-def hello():
-    return render_template('chat.html')
-
-@app.route("/ask", methods=['POST'])
-def ask():
-
-    message = str(request.form['messageText'])
-
-    bot_response = bot.get_response(message)
-
-    while True:
-
-        if bot_response.confidence > 0.1:
-
-            bot_response = str(bot_response)      
-            print(bot_response)
-            return jsonify({'status':'OK','answer':bot_response})
- 
-        elif message == ("bye"):
-
-            bot_response='Hope to see you soon'
-
-            print(bot_response)
-            return jsonify({'status':'OK','answer':bot_response})
-
-            break
-
-        else:
-        
-            try:
-                url  = "https://en.wikipedia.org/wiki/"+ message
-                page = get(url).text
-                soup = BeautifulSoup(page,"html.parser")
-                p    = soup.find_all("p")
-                return jsonify({'status':'OK','answer':p[1].text})
-
-            except IndexError as error:
-
-                bot_response = 'Sorry i have no idea about that.'
-            
-                print(bot_response)
-                return jsonify({'status':'OK','answer':bot_response})
-
-if __name__ == "__main__":
-    app.run()
-  
-  
 ```
 
 ## Training
@@ -256,6 +204,73 @@ trainer.train(
 
 ### Training with the Ubuntu dialog corpus
 
+```
+
+
+```
+
+# Flask constructor takes the name of current module (__name__) as argument.
+
+app = Flask(__name__)
+
+bot= ChatBot('ChatBot')
+
+trainer = ListTrainer(bot)
+
+for file in os.listdir('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/'):
+
+    chats = open('C:/Users/Anonymous/Desktop/ChatBot-Flask/data/' + file, 'r').readlines()
+
+    trainer.train(chats)
+
+@app.route("/")
+def hello():
+    return render_template('chat.html')
+
+@app.route("/ask", methods=['POST'])
+def ask():
+
+    message = str(request.form['messageText'])
+
+    bot_response = bot.get_response(message)
+
+    while True:
+
+        if bot_response.confidence > 0.1:
+
+            bot_response = str(bot_response)      
+            print(bot_response)
+            return jsonify({'status':'OK','answer':bot_response})
+ 
+        elif message == ("bye"):
+
+            bot_response='Hope to see you soon'
+
+            print(bot_response)
+            return jsonify({'status':'OK','answer':bot_response})
+
+            break
+
+        else:
+        
+            try:
+                url  = "https://en.wikipedia.org/wiki/"+ message
+                page = get(url).text
+                soup = BeautifulSoup(page,"html.parser")
+                p    = soup.find_all("p")
+                return jsonify({'status':'OK','answer':p[1].text})
+
+            except IndexError as error:
+
+                bot_response = 'Sorry i have no idea about that.'
+            
+                print(bot_response)
+                return jsonify({'status':'OK','answer':bot_response})
+
+if __name__ == "__main__":
+    app.run()
+  
+  
 ```
 
 Warning
