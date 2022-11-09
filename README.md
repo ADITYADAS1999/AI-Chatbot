@@ -360,7 +360,8 @@ To serving thousands of requests for dynamic content at once is the domain of WS
 
 ## JINJA2 Template
 
-![1200px-Jinja_software_logo svg](https://user-images.githubusercontent.com/58718316/200733713-c2b3d900-b270-47d4-ab74-6ed2c8a9e924.png)
+![1200px-Jinja_software_logo svg](https://user-images.githubusercontent.com/58718316/200734657-413e97ef-d57a-411a-a7b8-a5af15eb38a9.png)
+
 
 The name Jinja was chosen because it's the name of a Japanese temple and template share a similar pronunciation. Jinja2 is a commonly-used templating engine for web frameworks such as Flask, Bottle, Morepath and, as of its 1.8 update, optionally Django as well. Jinja2 is also used as a template language by configuration management tool Ansible and the static site generator Pelican, among many other similar tools.
 
