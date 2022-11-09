@@ -413,11 +413,6 @@ Finally install flask
 !pip install flask
 ```
 
-
-- ### 4.1. WSGI
-
-
-- ### 4.2. Jinja2
  
 # 10. How To Install ChatterBot In Python? 🤖🐍
 
