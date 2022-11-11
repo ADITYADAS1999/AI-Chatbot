@@ -235,44 +235,12 @@ def hello():
 # If you don't specify a methods argument to app.route(), then the default is to only accept GET and HEAD requests. POST is used to send data to a server to create/update a resource. The data sent to the server with POST is basically stored in the request body of the HTTP request.
 
 @app.route("/ask", methods=['POST'])
-def ask():
 
-    message = str(request.form['messageText'])
+```
 
-    bot_response = bot.get_response(message)
+![rtfd](https://user-images.githubusercontent.com/58718316/201259533-31e83179-1044-411d-9f13-c0f988ebf54e.PNG)
 
-    while True:
-
-        if bot_response.confidence > 0.1:
-
-            bot_response = str(bot_response)      
-            print(bot_response)
-            return jsonify({'status':'OK','answer':bot_response})
- 
-        elif message == ("bye"):
-
-            bot_response='Hope to see you soon'
-
-            print(bot_response)
-            return jsonify({'status':'OK','answer':bot_response})
-
-            break
-
-        else:
-        
-            try:
-                url  = "https://en.wikipedia.org/wiki/"+ message
-                page = get(url).text
-                soup = BeautifulSoup(page,"html.parser")
-                p    = soup.find_all("p")
-                return jsonify({'status':'OK','answer':p[1].text})
-
-            except IndexError as error:
-
-                bot_response = 'Sorry i have no idea about that.'
-            
-                print(bot_response)
-                return jsonify({'status':'OK','answer':bot_response})
+```
 
 if __name__ == "__main__":
     app.run()
