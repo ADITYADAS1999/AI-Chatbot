@@ -464,8 +464,12 @@ python -m chatterbot --version
 ## 11. Result section ⚗🧪🔬
 
   - ## Output
-  
- ![8585](https://user-images.githubusercontent.com/58718316/200826761-083b0a00-00f3-4d85-9fba-61dc336dbb64.PNG)
+ 
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/58718316/201462531-6f0cbaf4-84cb-483b-bec0-424ff72f60ea.gif)
+
+
+![8585](https://user-images.githubusercontent.com/58718316/200826761-083b0a00-00f3-4d85-9fba-61dc336dbb64.PNG)
 
  
 ## 12. Future scope 🚩
