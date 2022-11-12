@@ -22,6 +22,48 @@ Our project basically works in the following manner:
 - First, the chatbot is trained with a set of training data present in /data directory and creates a sqlite3 database. When the users inputs a query the bot searches for a response from the database if it finds an answer then it prints the response or else it will search for an answer from Wikipedia using web scraping and provide an appropriate response.
 
 
+## File structure 
+
+```
+
+ ChatBot-Flask-master_one
+			 |data
+			     -ai.yaml
+			     -botprofile.yaml
+			     -computers.yaml
+			     -conversations.yaml
+			     -emergency.yaml
+			     -emotion.yaml
+			     -food.yaml
+			     -gossip.yaml
+			     -greeting.yaml
+			     -health.yaml
+			     -history.yaml
+			     -humor.yaml
+			     -lterature.yaml
+			     -money.yaml
+			     -movies.yaml
+			     -politics.yaml
+			     -psychology.yaml
+			     -science.yaml
+			     -sports.yaml
+			     -trivia.yaml
+			     -wish.yaml
+			     
+			     
+		 	|templates
+			      -chat.html
+ -chatbot
+ -db.sqlite3
+ -db.sqlite3-shm
+ -db.sqlite3-wal
+ -LICENSE
+ -README.md
+ -requirements
+ -robo_small
+
+```
+
 # 3. How to install the project in your local system 🖥🖱
 
 
