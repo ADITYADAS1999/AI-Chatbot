@@ -107,6 +107,22 @@ There are different type of chatbot are use in different field, like simple chat
 I build this project because first of all I have some interest in this technology and also good knowledge in python programming. My main goal is that make this project cost optimestic and less complexcity. By optimizing the cost many organisation and user try to use this technology. And any contributors and maintainer can involve and contribute in less complex projects so it is easy the maintain and modify anytime infuture. 
 
 
+- ## Libraries:
+- ## Beautiful Soup
+Beautiful Soup is a Python library for web scraping. It allows developers to extract data from HTML and XML documents, and provides tools for navigating and parsing the resulting data. Beautiful Soup provides support for a range of HTML and XML parsers, and allows developers to easily extract data using CSS selectors, XPath expressions, and regular expressions. Beautiful Soup is often used in conjunction with other libraries such as Requests and Selenium, and is commonly used for collecting data from websites.
+
+
+- ## NLTK
+NLTK is a powerful Python library for natural language processing. It provides tools for tokenizing, stemming, and lemmatizing text, as well as tools for analyzing syntax, semantics, and sentiment. NLTK provides support for a range of languages, including English, French, and Spanish, and allows developers to easily create and train custom models using machine learning algorithms. NLTK is often used in conjunction with other libraries such as scikit-learn and Gensim, and is commonly used in text analysis and machine learning projects.
+
+
+- ## Requests
+Requests is a popular Python library for making HTTP requests. It simplifies the process of sending and receiving requests and responses, and provides support for common HTTP methods such as GET, POST, and DELETE. Requests allows developers to easily specify headers, cookies, and query parameters, and supports a range of authentication methods such as basic and digest authentication. Requests is often used in web scraping and API integration projects, and integrates well with other libraries such as Beautiful Soup and JSON.
+
+- ## Flask
+Flask is a lightweight Python microframework for web development. It's simple and easy to use, making it a popular choice for creating small to medium-sized web applications. Flask allows developers to define routes, which map URLs to functions that handle HTTP requests. Flask provides a built-in web server and supports a range of web templates and languages. Flask is often used for creating APIs, microservices, and webhooks, and integrates well with other libraries and frameworks such as SQLAlchemy and Jinja.
+
+
 # 6. Project code details ❗🔭📑📚
 
 
