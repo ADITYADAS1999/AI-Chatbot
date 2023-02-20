@@ -395,9 +395,9 @@ To serving thousands of requests for dynamic content at once is the domain of WS
 
 - ## Werkzeug
 
-It is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
-
 ![tool](https://user-images.githubusercontent.com/58718316/220007758-f1f94b8c-70a3-4179-af89-6c6523887c11.PNG)
+
+It is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
 
 - ## JINJA2 Template
 
