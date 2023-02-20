@@ -393,6 +393,12 @@ To serving thousands of requests for dynamic content at once is the domain of WS
 
 ![web-browser-server-wsgi](https://user-images.githubusercontent.com/58718316/200732626-3fc2efd1-b9f0-498e-97bf-2e2c1c88c928.png)
 
+- ## Werkzeug
+
+It is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
+
+![tool](https://user-images.githubusercontent.com/58718316/220007758-f1f94b8c-70a3-4179-af89-6c6523887c11.PNG)
+
 - ## JINJA2 Template
 
 ![1200px-Jinja_software_logo svg (1)](https://user-images.githubusercontent.com/58718316/200734875-5e08e138-86f2-4968-ac30-5f07ed8edd9a.png)
