@@ -1,4 +1,4 @@
-# MLH(Major League Hacking)-Project_Repo
+# AI Chatbot
 
 ![picd](https://user-images.githubusercontent.com/58718316/199229225-778637f1-a71f-49d2-97ae-c366e7d7c04d.PNG)
 
